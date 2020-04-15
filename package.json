@@ -1,0 +1,28 @@
+{
+  "name": "VuePressBlog",
+  "version": "1.0.0",
+  "description": "基于VuePress搭建个人博客",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cqy980831/VuePressBlog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cqy980831/VuePressBlog/issues"
+  },
+  "homepage": "https://github.com/cqy980831/VuePressBlog#readme",
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  }
+}
