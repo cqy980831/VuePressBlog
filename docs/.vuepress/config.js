@@ -3,6 +3,7 @@ moment.locale('zh-cn');
 
 
 module.exports = {
+    base:'/docs/',
     title: `陈庆宇_Blog`,
     description: `个人博客`,
     head: [
