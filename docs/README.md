@@ -2,7 +2,7 @@
 home: true
 heroImage: https://wx1.sinaimg.cn/thumb150/0072bjDtly8gdr2rmhov6j30u00u0418.jpg
 heroText: 小陈的博客
-tagline: 好记性不如烂笔头。
+tagline: 好记性不如敲烂键盘。
 actionText: 查看笔记📒 →
 actionLink: /zh/guide/
 features:
