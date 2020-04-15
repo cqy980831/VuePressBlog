@@ -1,9 +1,9 @@
 ---
 home: true
-heroImage: https://wx1.sinaimg.cn/thumb150/0072bjDtly8gdr2rmhov6j30u00u0418.jpg
+heroImage: https://tvax1.sinaimg.cn/crop.0.0.1080.1080.180/0072bjDtly8gdr2rmhov6j30u00u0418.jpg?KID=imgbed,tva&Expires=1586949398&ssig=rjthBBRT6R
 heroText: 小陈的博客
 tagline: 好记性不如敲烂键盘。
-actionText: 查看笔记📒 →
+actionText: See the notes 📖 →
 actionLink: /about/
 features:
 - title: 简洁至上

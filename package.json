@@ -24,6 +24,9 @@
     },
     "homepage": "https://github.com/cqy980831/VuePressBlog#readme",
     "devDependencies": {
+        "@vuepress/plugin-back-to-top": "^1.4.1",
+        "@vuepress/plugin-google-analytics": "^1.4.1",
+        "@vuepress/plugin-pwa": "^1.4.1",
         "vuepress": "^1.4.0"
     },
     "dependencies": {
