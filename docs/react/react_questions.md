@@ -178,7 +178,7 @@ shouldComponentUpdate（nextProps，nextState）{
 3. Reducer必须是纯函数  （返回的值必须要由传入的参数决定的，依赖传入的参数）
 
 
-## PWAPWA组成技术
+## PWA组成技术
 1. Service Worker
 2. Promise
 3. fetch
