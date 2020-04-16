@@ -21,4 +21,3 @@ autoPrev: README
 
 
 <img :src="$withBase('/favicon.ico')" alt="favicon">
-![favicon](/favicon.ico)

@@ -1,5 +1,8 @@
 ---
-title: 首页
+title: 奥利给奥利奥利给！！
+date: 2020-04-16
+categories: article
+author: 陈庆宇
 ---
 
 ## 介绍
@@ -9,7 +12,7 @@ title: 首页
 
 ## 参考资料
 
-1. [Vue官网](https://cn.vuejs.org/)
+1. [React官网](https://reactjs.org/)
 
 2. [掘金官网](https://juejin.im/timeline)
 

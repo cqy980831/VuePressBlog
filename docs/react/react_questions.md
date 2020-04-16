@@ -58,7 +58,7 @@ vue中通过Vue-loader把template语法解析为虚拟DOM对象  _vnode
 
 实现虚拟DOM转化真实DOM：
 ```js
-export function createElement(type,props,…childs){
+export function createElement(type,props,...childs){
 
     let obj = {};
     obj.type = type;
@@ -83,27 +83,27 @@ export function render(jsxOBJ,container,callback){
     
         if(!props.hasOwnProperty(key)) break;
         
-        if(key === ‘className’){
-            element.className = props[‘className’];
+        if(key === 'className'){
+            element.className = props['className'];
             continue;        }
         }
 
-        if(key === ’style’){
-           let sty = props[’style’];
+        if(key === 'style'){
+           let sty = props['style'];
            for(let attr in sty){
               if(!sty.hasOwnProperty(attr)) break; 
-              element[’style’][attr] = sty[’attr’];
+              element['style'][attr] = sty['attr'];
            }
             continue;
         }
 
 
-        if(key === ‘children’){
-            let children = props[‘children’];
+        if(key === 'children'){
+            let children = props['children'];
             children = Array.isArray(children) ? children : [children]
 
             children.forEach(item => {
-                if(typeOf item === ’string’){
+                if(typeOf item === 'string'){
                     element.appendChild(document.createTextNode(item))
                     return;
                 }
@@ -116,7 +116,6 @@ export function render(jsxOBJ,container,callback){
 
         container.appendChild(element);
         callback && callback();
-    
 }
 ```
 
@@ -141,6 +140,8 @@ React中的组件：每一个组件都是一个单独的个体（数据私有、
 componentDidMount()  第一次家在组建渲染完毕等价于vue中的mounted
 this.state.time = 'hahhah'  这样确实可以修改状态信息，但不会通知组件重新渲染。每一次修改状态应该基于：setState方法。partialState：部分状态（对象），我们初始化状态有很多，想修改谁，这块只写谁即可。(REACT内部是把之前的状态和传递的partialState进行合并替换的)  `Object.assign(this.state,partialState)`
 setState大部分情况下是异步的，在原生事件中与setTimeout同步
+
+<img :src="$withBase('/setstate.png')" alt="">
 
 
 ## 单向数据流
@@ -174,6 +175,8 @@ shouldComponentUpdate（nextProps，nextState）{
 ### Redux 三个小坑
 1. store 必须是唯一的，多个store是坚决不允许的，只能有一个store空间
 2. 只有store能改变自己的内容，Reducer不能改变
+
+<img :src="$withBase('/redux.png')" alt="">
 
 3. Reducer必须是纯函数  （返回的值必须要由传入的参数决定的，依赖传入的参数）
 

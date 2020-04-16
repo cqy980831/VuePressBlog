@@ -21,7 +21,16 @@ module.exports = {
     '@vuepress/medium-zoom': {
         selector: 'img',
     },
-    'vuepress-plugin-auto-sidebar':{
-        nav:true
-    }
+    'vuepress-plugin-auto-sidebar': {
+        nav: true
+    },
+    '@vssue/vuepress-plugin-vssue': {
+        platform: 'github-v4',
+        owner: 'cqy980831',
+        repo: 'VuePressBlog',
+        clientId: 'b0e2a5c72199e9894d17',
+        clientSecret: '8aa478797bec678ec8b6f23e572e986fad0b4834',
+        autoCreateIssue: true
+    },
+    'go-top': true
 }
