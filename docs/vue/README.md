@@ -1,8 +1,5 @@
 ---
-title: 好记性不如敲烂键盘！
-date: 2020-04-16
-categories: article
-author: 陈庆宇
+title: 首页
 ---
 
 ## 介绍
