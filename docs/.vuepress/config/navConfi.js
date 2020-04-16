@@ -1,9 +1,9 @@
 module.exports = [
     { text: 'Home', link: '/' },
     { text: 'Guide', link: '/guide/' },
-    { text: 'JavaScript', link: '/about1/' },
-    { text: 'Vue', link: '/vue/' },
-    { text: 'React', link: '/about/' },
+    { text: 'JavaScript', link: '/javascript/' },
+    { text: 'Vue', link: '/about/' },
+    { text: 'React', link: '/about1/' },
     {
         text: 'Languages',
         ariaLabel: 'Language Menu',
