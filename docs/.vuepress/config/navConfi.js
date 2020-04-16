@@ -2,14 +2,12 @@ module.exports = [
     { text: 'Home', link: '/' },
     { text: 'Guide', link: '/guide/' },
     { text: 'JavaScript', link: '/javascript/' },
-    { text: 'Vue', link: '/about/' },
-    { text: 'React', link: '/about1/' },
+    { text: 'Vue', link: '/vue/' },
+    { text: 'React', link: '/react/' },
     {
-        text: 'Languages',
-        ariaLabel: 'Language Menu',
+        text: '更多',
         items: [
-            { text: 'Chinese', link: '/language/chinese/' },
-            { text: 'Japanese', link: '/language/japanese/' }
+            { text: 'VuePress官网', link: 'https://v1.vuepress.vuejs.org/zh/' }
         ]
     },
     { text: '码云', link: 'https://gitee.com/chen_qing_yu' },

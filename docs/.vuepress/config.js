@@ -8,7 +8,7 @@ const navConfi = require('./config/navConfi');
 
 module.exports = {
     // base:'/VuePressBlog/',
-    title: `陈庆宇_Blog`,
+    title: `水星记`,
     description: `个人博客`,
     head: headConfi,
     plugins: pluginsConfi,
