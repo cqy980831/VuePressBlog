@@ -17,5 +17,11 @@ module.exports = {
     '@vuepress/back-to-top': true,
     '@vuepress/google-analytics': {
         'ga': 'UA-163658482-1'
+    },
+    '@vuepress/medium-zoom': {
+        selector: 'img',
+    },
+    'vuepress-plugin-auto-sidebar':{
+        nav:true
     }
 }

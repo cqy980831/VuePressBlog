@@ -1,5 +1,6 @@
 ---
 sidebar: auto
+autoPrev: README
 ---
 
 ## 关于
@@ -17,3 +18,7 @@ sidebar: auto
 [![GitHub issues](https://img.shields.io/github/issues/cqy980831/VuePressBlog)](https://github.com/cqy980831/VuePressBlog/issues)
 
 [![GitHub stars](https://img.shields.io/github/stars/cqy980831/VuePressBlog)](https://github.com/cqy980831/VuePressBlog/stargazers)
+
+
+<img :src="$withBase('/favicon.ico')" alt="favicon">
+![favicon](/favicon.ico)

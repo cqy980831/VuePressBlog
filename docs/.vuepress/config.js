@@ -1,8 +1,9 @@
 
 const headConfi = require('./config/headConfi');
 const pluginsConfi = require('./config/pluginsConfi');
-const navConfi = require('./config/navConfi');
-const sidebarConfi = require('./config/sidebarConfi');
+const nav = require('./nav');
+// const navConfi = require('./config/navConfi');
+// const sidebarConfi = require('./config/sidebarConfi');
 
 
 module.exports = {
@@ -13,7 +14,7 @@ module.exports = {
     plugins: pluginsConfi,
     themeConfig: {
         lastUpdated: '更新时间',
-        nav: navConfi,
-        sidebar: sidebarConfi
+        nav:nav
+        // nav: navConfi
     }
 }
