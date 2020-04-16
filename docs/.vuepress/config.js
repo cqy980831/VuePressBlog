@@ -8,7 +8,7 @@ const navConfi = require('./config/navConfi');
 
 module.exports = {
     // base:'/VuePressBlog/',
-    theme:'reco',
+    theme: 'reco',
     title: `水星记`,
     // description: `个人博客`,
     head: headConfi,
@@ -23,11 +23,11 @@ module.exports = {
         author: '陈庆宇',
         friendLink: [
             {
-              title: 'kea',
-              desc: 'Enjoy when you can, and endure when you must.',
-              email: 'cqy980831@sina.com',
-            //   link: 'https://www.recoluan.com'
+                title: 'kea',
+                desc: 'Enjoy when you can, and endure when you must.',
+                email: 'cqy980831@sina.com',
+                //   link: 'https://www.recoluan.com'
             },
-          ]
+        ]
     }
 }
