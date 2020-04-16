@@ -2,7 +2,7 @@
 home: true
 heroImage: https://tvax1.sinaimg.cn/crop.0.0.1080.1080.180/0072bjDtly8gdr2rmhov6j30u00u0418.jpg?KID=imgbed,tva&Expires=1586949398&ssig=rjthBBRT6R
 heroImageStyle: {
-  maxHeight: '130px',
+  maxHeight: '120px',
   display: block,
   margin: '6rem auto 1rem',
   borderRadius: '50%',
