@@ -1,16 +1,19 @@
 ---
 home: true
 heroImage: https://tvax1.sinaimg.cn/crop.0.0.1080.1080.180/0072bjDtly8gdr2rmhov6j30u00u0418.jpg?KID=imgbed,tva&Expires=1586949398&ssig=rjthBBRT6R
-
 heroImageStyle: {
-  maxHeight: '200px',
+  maxHeight: '130px',
   display: block,
-  margin: '6rem auto 1.5rem',
+  margin: '6rem auto 1rem',
   borderRadius: '50%',
   boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
 }
+bgImage: '/bg.png'
+bgImageStyle: {
+  height: '380px'
+}
 heroText: 小陈的博客
-tagline: 好记性不如敲烂键盘!
+# tagline: 好记性不如敲烂键盘!
 actionText:  进入笔记 📖 →
 actionLink: /guide/
 features:
