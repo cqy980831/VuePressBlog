@@ -13,6 +13,7 @@ ReactDOM 作用就是把虚拟DOM渲染成真实的DOM
 
 ## JSX语法
 JSX语法：
+JSX 只是为 React.createElement(component, props, ...children) 方法提供的语法糖。
 ```js
 class App extends Component{
     render(){
@@ -25,8 +26,8 @@ class App extends Component{
 }
 ```
 
-## ReactCreatElement语法
-ReactCreatElement语法:
+## React.CreateElement()方法
+React.CreateElement()方法:
 ```js
 class App extends Component{
     render(){
@@ -35,6 +36,7 @@ class App extends Component{
     }
 }
 ```
+
 
 1. 基于babel-preset-react-app 把JSX变为React.createElement
 2. 执行React.createElement( )创建JSX虚拟DOM对象

@@ -13,7 +13,7 @@ bgImageStyle: {
   height: '380px'
 }
 heroText: 小陈的博客
-# tagline: 好记性不如敲烂键盘!
+tagline: 好记性不如敲烂键盘!
 actionText:  进入笔记 📖 →
 actionLink: /guide/
 features:
@@ -26,6 +26,6 @@ features:
 footer: MIT Licensed | Copyright © 2020-present Evan You
 ---
 
-::: danger
-
+::: tip
 这根本不是什么文档，它只是个人笔记而已。
+:::

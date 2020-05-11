@@ -8246,6 +8246,11 @@ vuepress-plugin-go-top@^1.0.0:
   resolved "https://registry.yarnpkg.com/vuepress-plugin-go-top/-/vuepress-plugin-go-top-1.0.0.tgz#d18db397da9732e18860c96f8a3033e8e91c63e7"
   integrity sha512-36BYGZacgi51fwJDaMGUWSXDzp2UQQEUWe20PvF4Lh4pNkR5Xj8g+sJLW5qCNn/2Oyw9diqz2o6xCJOgbYuyxQ==
 
+vuepress-plugin-ribbon@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-ribbon/-/vuepress-plugin-ribbon-1.0.0.tgz#052e9ff0ad3b2b76da9a050b6ae17a6c60b0a39a"
+  integrity sha512-x1tlmMgo+KbAI/jXoLAbze7qZuH+9uZwZgvVYd6vPdQKXtvFqq8qxbRGF1MMdGBTTbpMP0zwfkqmqUVe1KLbLw==
+
 vuepress-plugin-smooth-scroll@^0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-smooth-scroll/-/vuepress-plugin-smooth-scroll-0.0.3.tgz#6eff2d4c186cca917cc9f7df2b0af7de7c8c6438"

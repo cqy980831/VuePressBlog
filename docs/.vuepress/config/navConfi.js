@@ -10,5 +10,5 @@ module.exports = [
             { text: 'VuePress官网', link: 'https://v1.vuepress.vuejs.org/zh/' }
         ]
     },
-    { text: '码云', link: 'https://gitee.com/chen_qing_yu' },
+    { text: '码云', link: 'https://gitee.com/chen_qing_yu' }
 ];
