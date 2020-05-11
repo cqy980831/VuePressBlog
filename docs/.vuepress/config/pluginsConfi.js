@@ -35,7 +35,7 @@ module.exports = {
     'go-top': true,
     'ribbon': {
         size: 90,
-        opacity: 0.8,
+        opacity: 0.7,
         zIndex: -1
     },
     'cursor-effects': {
