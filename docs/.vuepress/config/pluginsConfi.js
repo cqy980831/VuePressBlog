@@ -32,5 +32,15 @@ module.exports = {
         clientSecret: '8aa478797bec678ec8b6f23e572e986fad0b4834',
         autoCreateIssue: true
     },
-    'go-top': true
+    'go-top': true,
+    'ribbon': {
+        size: 90,     // width of the ribbon, default: 90
+        opacity: 0.8, // opacity of the ribbon, default: 0.3
+        zIndex: -1    // z-index property of the background, default: -1
+    },
+    "cursor-effects": {
+        size: 2,                    // size of the particle, default: 2
+        shape: ['star' | 'circle'],  // shape of the particle, default: 'star'
+        zIndex: 999999999           // z-index property of the canvas, default: 999999999
+    }
 }

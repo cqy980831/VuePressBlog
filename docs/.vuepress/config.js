@@ -16,14 +16,14 @@ module.exports = {
     head: [
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
     ],
-    locales: {
-        '/': {
-            lang: 'zh-CN'
-        },
-        '/en/': {
-            lang: 'en-US'
-        }
-    },
+    // locales: {
+    //     '/': {
+    //         lang: 'zh-CN'
+    //     },
+    //     '/en/': {
+    //         lang: 'en-US'
+    //     }
+    // },
     themeConfig: {
         lastUpdated: '更新时间',
         // nav:nav
@@ -40,21 +40,5 @@ module.exports = {
                 //   link: 'https://www.recoluan.com'
             },
         ]
-    },
-    plugins: [
-        [
-            "ribbon",
-            {
-                size: 90,     // width of the ribbon, default: 90
-                opacity: 0.8, // opacity of the ribbon, default: 0.3
-                zIndex: -1    // z-index property of the background, default: -1
-            },
-            "cursor-effects",
-            {
-                size: 2,                    // size of the particle, default: 2
-                shape: ['star' | 'circle'],  // shape of the particle, default: 'star'
-                zIndex: 999999999           // z-index property of the canvas, default: 999999999
-            }
-        ]
-    ]
+    }
 }
