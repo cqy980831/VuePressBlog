@@ -33,14 +33,21 @@ module.exports = {
         autoCreateIssue: true
     },
     'go-top': true,
-    // 'ribbon': {
-    //     size: 90,
-    //     opacity: 0.8, 
-    //     zIndex: -1   
-    // },
+    'ribbon': {
+        size: 90,
+        opacity: 0.8,
+        zIndex: -1
+    },
     'cursor-effects': {
-        size: 2,                    
+        size: 2,
         shape: ['star' | 'circle'],
         zIndex: 999999999
+    },
+    'dynamic-title': {
+        showIcon: "/favicon.ico",
+        showText: "(/≧▽≦/)咦！又好了！",
+        hideIcon: "/failure.ico",
+        hideText: "(●—●)喔哟，崩溃啦！",
+        recoverTime: 2000
     }
 }

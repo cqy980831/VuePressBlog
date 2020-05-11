@@ -8241,6 +8241,16 @@ vuepress-plugin-container@^2.0.2:
   dependencies:
     markdown-it-container "^2.0.0"
 
+vuepress-plugin-cursor-effects@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-cursor-effects/-/vuepress-plugin-cursor-effects-0.0.4.tgz#f8596c9b90da314d46571fc11f11b6b6f634d4a8"
+  integrity sha512-QBzd00awqtBazV7RqQqaCVYh7rIhAhepnNVpCaTDyrq0fsQllxkrCWyz3vg1U1y8d7z7O6BWNwK9SBv4T9Lo/A==
+
+vuepress-plugin-dynamic-title@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-dynamic-title/-/vuepress-plugin-dynamic-title-0.0.5.tgz#32b2c6f381c94aa7b247a9833c63c055300463d6"
+  integrity sha512-SVkyxGHMFnVDJz5T78j0imq9DJlfy1XapWbUKzL3IdTKo7iFE0osQRrO78rr3+adXX/oj3Y4KROvfYaI0DEcBQ==
+
 vuepress-plugin-go-top@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-go-top/-/vuepress-plugin-go-top-1.0.0.tgz#d18db397da9732e18860c96f8a3033e8e91c63e7"
