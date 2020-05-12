@@ -16,14 +16,6 @@ module.exports = {
     head: [
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
     ],
-    // locales: {
-    //     '/': {
-    //         lang: 'zh-CN'
-    //     },
-    //     '/en/': {
-    //         lang: 'en-US'
-    //     }
-    // },
     themeConfig: {
         lastUpdated: '更新时间',
         // nav:nav
@@ -37,7 +29,6 @@ module.exports = {
                 title: 'kea',
                 desc: 'Enjoy when you can, and endure when you must.',
                 email: 'cqy980831@sina.com',
-                //   link: 'https://www.recoluan.com'
             },
         ]
     }
