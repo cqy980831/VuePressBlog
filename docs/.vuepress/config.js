@@ -20,7 +20,7 @@ module.exports = {
         lastUpdated: '更新时间',
         // nav:nav
         nav: navConfi,
-        // type: 'blog',
+        type: 'blog',
         authorAvatar: 'https://tvax1.sinaimg.cn/crop.0.0.1080.1080.180/0072bjDtly8gdr2rmhov6j30u00u0418.jpg?KID=imgbed,tva&Expires=1586949398&ssig=rjthBBRT6R',
         huawei: true,
         author: '陈庆宇',
