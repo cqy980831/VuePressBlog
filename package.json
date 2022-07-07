@@ -41,7 +41,7 @@
         "@vssue/vuepress-plugin-vssue": "^1.4.3",
         "@vuepress-reco/vuepress-plugin-back-to-top": "^1.4.0",
         "countup.js": "^2.0.4",
-        "moment": "^2.24.0",
+        "moment": "^2.29.4",
         "vuepress-plugin-auto-sidebar": "^1.4.1",
         "vuepress-theme-reco": "^1.4.2"
     }
